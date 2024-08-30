@@ -25,7 +25,7 @@ function App() {
 
 
   const Linksofapps =[
-    'https://www.geeksforgeeks.org/java/_blank',
+    'https://www.geeksforgeeks.org/java/',
     'https://www.hackerrank.com/',
     'https://stackoverflow.com/',
     'https://medium.com/tag/coding',
@@ -33,7 +33,8 @@ function App() {
     'https://www.codewars.com/'
   ]
   const Handleclick=(index)=>{
-    window.location.href = Linksofapps[index];
+    window.open(Linksofapps[index], '_blank');
+    
   }
 
   return (
